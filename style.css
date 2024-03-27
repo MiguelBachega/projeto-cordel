@@ -1,0 +1,74 @@
+@charset "utf-8";
+:root{
+    --fonte-primaria: 'Passion One';
+    --fonte-secundaria: 'Sriracha'
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+header{
+    background-color: black;
+    text-align: center;
+    padding: 90px 20px;
+}
+header > h1{
+    font-family: var(--fonte-primaria);
+    font-size: 52px;
+    color: white;
+    font-variant: small-caps;
+}
+
+header > p{
+    color: white;
+    font-weight: 200;
+}
+
+section > section{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    line-height: 2em;
+}
+
+section > p{
+    font-family: var(--fonte-secundaria);
+    font-size: 21px;
+    padding-left: 10px;
+    padding-bottom: 2em;
+}
+
+section.imagem{
+    padding: 90px 0px;
+
+}
+
+section#img01{
+    background: black url(imagens/background001.jpg) right center no-repeat fixed;
+    background-size: cover;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+
+}
+
+section#img02{
+    background: black url(imagens/background002.jpg) bottom right /cover no-repeat fixed;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
+
+}
+
+.imagem > p{
+    display: inline-block;
+    color: white;
+    background-color: #0000005e;
+    padding: 15px;
+}
